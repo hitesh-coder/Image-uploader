@@ -8,7 +8,7 @@ const crypto = require('crypto');
 
 const router = express.Router();
 
-const mongoURI = 'mongodb+srv://Hitesh:hskT123%40k@cluster.fldzn.mongodb.net/image-uploader?retryWrites=true&w=majority';
+const mongoURI = 'mongodb+srv://Hitesh:<YOURPASSWORD>k@cluster.fldzn.mongodb.net/image-uploader?retryWrites=true&w=majority';
 
 const conn = mongoose.createConnection(mongoURI, { useUnifiedTopology: true, useNewUrlParser: true });
 
