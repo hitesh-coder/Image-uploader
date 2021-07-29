@@ -76,7 +76,6 @@ router.get('/', (req, res) => {
 })
 
 router.post('/', upload.single('file'), (req, res) => {
-    // res.json({file:req.file});
     res.status(200).send();
 });
 
